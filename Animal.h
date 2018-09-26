@@ -29,6 +29,16 @@ public:
 
 };
 
+class Deer : public Animal {
+public:
+	Deer():
+	Animal("Deer Deer Deer")
+	{}
+
+	int GetPower() { return 10; };
+
+};
+
 // Define your animals here
 
 class Eagle : public Animal {

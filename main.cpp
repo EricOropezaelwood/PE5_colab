@@ -5,6 +5,10 @@ using namespace std;
 
 int main()
 {
+	Deer d;
+	Turtle t;
+
+	t.Fight(d);
 	Eagle e;
 	Turtle t;
 

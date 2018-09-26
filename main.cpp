@@ -10,7 +10,6 @@ int main()
 
 	t.Fight(d);
 	Eagle e;
-	Turtle t;
 
 	e.Fight(t);	
 

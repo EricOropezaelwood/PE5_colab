@@ -7,6 +7,6 @@ clean:
 	rm Animal.o Animal
 
 Animal:
-	$(CXX) $(CXXFLAGS) main.cpp Animal.o -o Animal
+	$(CXX) $(CXXFLAGS) main.cpp Animal.cpp -o Animal
 
 	

@@ -9,6 +9,10 @@ int main()
 	Turtle t;
 
 	t.Fight(d);
+	Eagle e;
+	Turtle t;
+
+	e.Fight(t);	
 
 	return 0;
 }
